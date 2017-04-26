@@ -1,0 +1,10 @@
+node {
+   echo 'Hello World'
+   
+  // git 'http://github.com/savishy/spring-petclinic.git'
+  // checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'http://github.com/savishy/spring-petclinic.git']]])
+build 'pipe'
+   
+   //bat 'install'
+    
+}
